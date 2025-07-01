@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1e202b;
+  color: #bfc1c8;
+}
+
+.navbar {
+  background-color: #1e202b !important;
+}
+
+.navbar-brand h1 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbar-brand small {
+  font-size: 0.75rem;
+  display: block;
+}
+
+.nav-link {
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: 0.3s all;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  border-color: #009ad8;
+  color: #009ad8 !important;
+}
+
+main {
+  background-image: url(../imgs/banner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.search-container input {
+  background-color: #1e202b;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 50px 20px 20px;
+  color: white;
+  border-color: #009ad8;
+}
+
+.search-container input::placeholder {
+  color: #bfc1c8;
+}
+
+.search-container .btn {
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 30px;
+  background-color: #009ad8;
+  border-color: #009ad8;
+}
+
+.forecast-container {
+  background-color: #323544;
+  border-radius: 10px;
+  color: #bfc1c8;
+}
+
+.forecast-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-content {
+  padding: 20px;
+}
+
+.location {
+  font-size: 1.25rem;
+}
+
+.degree {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.custom {
+  color: #009ad8;
+}
+
+.forecast-icon img {
+  width: 90px;
+}
+
+.forecast-container .col-md-4:nth-child(2) .forecast-header {
+  background-color: #262936;
+}
+.forecast-container .col-md-4:nth-child(2) {
+  background-color: #262936;
+}
+
+.forecast-container .col-md-4:nth-child(3) .forecast-header {
+  background-color: #222530;
+}
+
+.forecast-container .col-md-4:nth-child(3) {
+  background-color: #222530;
+}
+
+.forecast-container .col-md-4 {
+  border-right: 1px solid #2d303d;
+}
+
+.forecast-container .col-md-4:last-child {
+  border-right: none;
+}
+
+footer {
+  background-color: #262936 !important;
+}
+
+.subscribe-container input {
+  background-color: #1e202b;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  color: white;
+}
+
+.subscribe-container .btn {
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 30px;
+  background-color: #009ad8;
+  border-color: #009ad8;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3s all;
+}
+.social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
+
+footer p {
+  color: #bfc1c8;
+}
